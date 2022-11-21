@@ -1,4 +1,4 @@
-const APPID = "30faa1389b1f9794d1af6a0b0c354a2a";
+const APPID = "45616049c06b568dec69efa0cd26cb97";
 
 function getCurrentWeatherEndpoint(city) {
   return `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=ro&appid=${APPID}`;
